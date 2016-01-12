@@ -4,11 +4,11 @@ require "./carre.rb"
 class TestCarre < Minitest::Test
 
   def test_1
-    assert_equal  4, square_sum([2]),
+    assert_equal  4, square_sum([2])
   end
 
   def test_2
-    assert_equal  16, square_sum([4]), 
+    assert_equal  16, square_sum([4])
   end
 
   def test_3
